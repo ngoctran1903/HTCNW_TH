@@ -1,0 +1,13 @@
+.heading {
+  text-align: center;
+}
+.A {
+  text-align: center;
+}
+.B {
+  text-align: right;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0;
+}
