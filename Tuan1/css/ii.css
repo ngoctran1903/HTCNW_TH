@@ -11,3 +11,25 @@
   pointer-events: none;
   opacity: 0;
 }
+
+table {
+  background-color: #e5dcb3;
+}
+
+tr {
+  border: 5px solid #d7bda6;
+  border-style: outset;
+}
+
+td {
+  background: white;
+  border: 3px solid #d7bda6;
+}
+
+#organe {
+    background: orange;
+}
+
+#yellow {
+  background: yellow;
+}
