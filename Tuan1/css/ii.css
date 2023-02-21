@@ -33,3 +33,26 @@ td {
 #yellow {
   background: yellow;
 }
+
+
+.container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+section div left-half {
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+section div right-half {
+  text-align: right;
+  vertical-align: middle;
+}
+
+.matcuoi {
+  width: 50px;
+  height: 50px;
+}
