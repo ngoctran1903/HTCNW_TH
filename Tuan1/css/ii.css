@@ -21,9 +21,29 @@ tr {
   border-style: outset;
 }
 
-td {
+.aa td {
   background: white;
   border: 3px solid #d7bda6;
+}
+.with td{
+  background-color:azure;
+  
+}
+.dd td {
+  background-color: burlywood;
+  border-top: 1.5px solid #0b0b0a;
+  border-left: 1.5px solid #0b0b0a;
+  border-bottom: 1.5px solid #8f8f83;
+  border-right: 1.5px solid #8f8f83;
+ 
+}
+
+#bbbb td {
+  background: #feff99;
+}
+
+#bbbb #cccc {
+  background: #8fffff;
 }
 
 #organe {
@@ -56,3 +76,6 @@ section div right-half {
   width: 50px;
   height: 50px;
 }
+
+
+
