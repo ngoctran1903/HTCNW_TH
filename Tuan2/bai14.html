@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            left: auto;
+        }
+        #txtInput {
+            position: absolute;
+            left: 250px;
+            right: 300px;
+        }
+        #inputSubmit {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Contact Us</h2>
+    <p>Use the following form to send a message to Example Cafe </p> <br>
+    <form action="">
+        <div id="content">
+            <label for="email">Your email</label>
+            <input id="txtInput" type="text"> <br>
+        </div>
+        <br>
+        <div id="content">
+            <label for="email">Message</label>
+            <textarea id="txtInput"></textarea>
+        </div>
+        <br>
+        <br>
+        <div id="content">
+            <label for="text">How did you hear of us?</label>
+            <select id="txtInput" name="lang" id="lang-select">
+                <option value=""></option>
+                <option selected value="google">Google</option>
+            </select>
+        </div>
+        <br>
+        <div id="content">
+            <label for="text">Newsletter</label>
+            <input class="newsletter" type="checkbox">
+        </div>
+        <br>
+        <input class="inputSubmit" type="submit" value="Send message">
+    </form>
+</body>
+
+</html>
