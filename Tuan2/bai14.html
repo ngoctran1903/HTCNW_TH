@@ -36,18 +36,21 @@
         </div>
         <br>
         <br>
-        <div id="content">
+        <div id="content" class="">
             <label for="text">How did you hear of us?</label>
             <select id="txtInput" name="lang" id="lang-select">
-                <option value=""></option>
+                <!-- <option value=""></option> -->
+                
+                <option selected value="Facebook">Facebook</option>
                 <option selected value="google">Google</option>
+
             </select>
         </div>
         <br>
-        <div id="content">
-            <label for="text">Newsletter</label>
-            <input class="newsletter" type="checkbox">
-        </div>
+        <tr>
+            <td><label for="checkbox">Newsletter</label> </td>
+            <td><input name="checkbox" type="checkbox" id="checkbox"> <span>Ensure this box is checked if you would like to receive email updates</span> </td>
+        </tr>
         <br>
         <input class="inputSubmit" type="submit" value="Send message">
     </form>
