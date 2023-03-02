@@ -1,133 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <link rel="stylesheet" href="../css/tuan2.css">
 </head>
 
 <style>
-    
-    
-    h2.a{
+    h2.a {
         text-align: center;
     }
-    div.b{
+
+    div.b {
         text-align: center;
     }
-    
-    
 </style>
+
 <body>
-    <h2 class="a">Survey Form</h2>
-    <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional, and all information will be kept strictly confidential. Thank you very much for your time!</p>
-    <ol type="1">
-        <li>
-            <form action="">
-                <label for="fname">&nbsp;What is your name?</label><br>
-                <input type="text" id="fname" name="fname">
-             </form> <br>
-        </li>
-        <li>    
-             <form action="" method="get" name="frmInfo">
-                &nbsp;What is your birth? <br>
-                Month:
-                <input type="text" name="txtName" value="" size="10" maxlength="10" list="tech">
-                <datalist id="tech">
-                    <option value="January"></option>
-                    
-                    <option value="Ferbury"></option>
-                    
-                    <option value="March"></option>
-                    <option value="...."></option>
-                </datalist>
-                Date:
-                <input type="text" name="date" value="" size="2" maxlength="2" list="date">
-                <datalist id="date">
-                    <option value="1"></option>
-                    
-                    <option value="2"></option>
-                    
-                    <option value="3"></option>
-                    
-                    <option value="...."></option>
-                </datalist>
-                Year:
-                <input type="text" name="year" value="" size="3" maxlength="3" list="year">
-                <datalist id="year">
-                    <option value="1"></option>
-                    
-                    <option value="2"></option>
-                    
-                    <option value="3"></option>
-                    <option value="19"></option>
-                    
-                    <option value="...."></option>
-                </datalist>
-            </form> <br>
-        </li>
-        <li>
-            <form action="">
-                <label for="fname">&nbsp;What is your mailing address(if you would like to have a hard copy of our catalog sent to you)?</label><br>
-                <input type="text" id="fname" name="fnameinput type="text" name="txt" readonly="readonly" id="email" size="50" value="Number/P.O.  Box/Route:"
-                
-</form> 
-        </li>
-        <br>
-        <li>      
-            <form action="">
-                <label for="fname">&nbsp;What is your email address?</label><br>
-                <input type="text" id="fname" name="fname">
-             </form>
-        </li>
-        <li>
-            <form action="">
-                <label for="fname">&nbsp;Have you viewed our online product catalog?</label><br>
-                <input type="radio" id="fname" name="fname">Yes
-                <input type="radio" id="fname" name="fname">No
-             </form>
-        </li>
-        <li>
-   
-            <form action="">
-                <label for="fname">&nbsp;If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply.)</label><br>
-                <input type="checkbox" id="fname" name="fname">VCR <br>
-                <input type="checkbox" id="fname" name="fname">Big Screen TV <br>
-                <input type="checkbox" id="fname" name="fname">Audio Equipment<br>
-                <input type="checkbox" id="fname" name="fname">Video Equipment<br>
-                <input type="checkbox" id="fname" name="fname">Camera Equipment<br>
-                <input type="checkbox" id="fname" name="fname">Other
+    <div style="background-color: rgb(220, 224, 91);">
+        <h2 class="a">Survey Form</h2>
+        <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all
+            of the following survey for our marketing department. Answering any question is optional, and all
+            information will be kept strictly confidential. Thank you very much for your time!</p>
+        <ol type="1">
+            <li>
+                <form action="">
+                    <label for="fname">&nbsp;What is your name?</label><br>
+                    <input type="text" id="fname" name="fname">
+                </form> <br>
+            </li>
+            <li>
+                <form action="" method="get" name="frmInfo">
+                    &nbsp;What is your birth? <br>
+                    Month:
+                    <input type="text" name="txtName" value="" size="10" maxlength="10" list="tech">
+                    <datalist id="tech">
+                        <option value="January"></option>
+
+                        <option value="Ferbury"></option>
+
+                        <option value="March"></option>
+                        <option value="...."></option>
+                    </datalist>
+                    Date:
+                    <input type="text" name="date" value="" size="2" maxlength="2" list="date">
+                    <datalist id="date">
+                        <option value="1"></option>
+
+                        <option value="2"></option>
+
+                        <option value="3"></option>
+
+                        <option value="...."></option>
+                    </datalist>
+                    Year:
+                    <input type="text" name="year" value="" size="3" maxlength="3" list="year">
+                    <datalist id="year">
+                        <option value="1"></option>
+
+                        <option value="2"></option>
+
+                        <option value="3"></option>
+                        <option value="19"></option>
+
+                        <option value="...."></option>
+                    </datalist>
+                </form> <br>
+            </li>
+            <li>
+                <form action="">
+                    <label for="fname">&nbsp;What is your mailing address(if you would like to have a hard copy of our
+                        catalog sent to you)?</label><br>
+                    <textarea cols="50" rows="5" style="text-align: left;">
+                        Number/P.O. Box/Route:
+                        Street/Avenue/Road:
+                        City:
+                        State/Zip:
+                    </textarea>
+                </form>
+            </li>
+            <br>
+            <li>
+                <form action="">
+                    <label for="fname">&nbsp;What is your email address?</label><br>
+                    <input type="text" id="fname" name="fname">
+                </form>
+            </li>
+            <li>
+                <form action="">
+                    <label for="fname">&nbsp;Have you viewed our online product catalog?</label><br>
+                    <input type="radio" id="fname" name="fname">Yes
+                    <input type="radio" id="fname" name="fname">No
+                </form>
+            </li>
+            <li>
+
+                <form action="">
+                    <label for="fname">&nbsp;If so, what product(s), besides the one you are ordering, might you be
+                        interested in purchasing in the future? (Check all that apply.)</label><br>
+                    <input type="checkbox" id="fname" name="fname">VCR <br>
+                    <input type="checkbox" id="fname" name="fname">Big Screen TV <br>
+                    <input type="checkbox" id="fname" name="fname">Audio Equipment<br>
+                    <input type="checkbox" id="fname" name="fname">Video Equipment<br>
+                    <input type="checkbox" id="fname" name="fname">Camera Equipment<br>
+                    <input type="checkbox" id="fname" name="fname">Other
                     <form action="">
                         <label for="name"></label>
                         <input type="text" value="Please List" width="40" maxlength="30">
                     </form>
-             </form>
-        </li>
-        <li>
-            <form action="">
-                <label for="fname">&nbsp;Do you have any questions, comments or suggestions before proceeding to the Order Form?</label><br>
-                <input type="text" id="fname" name="fname" value="Your Input: ">
-             </form> <br>
-        </li>
-        <div class="b">
+                </form>
+            </li>
+            <li>
+                <form action="">
+                    <label for="fname">&nbsp;Do you have any questions, comments or suggestions before proceeding to the
+                        Order Form?</label><br>
+                    <input type="text" id="fname" name="fname" value="Your Input: ">
+                </form> <br>
+            </li>
+            <div class="b">
 
-            <input  type="submit" value="Send Form"> 
-        
-            <input  type="submit" value="Clear Form"> 
-        </div>
+                <input type="submit" value="Send Form">
 
-
-    </ol>
-
+                <input type="submit" value="Clear Form">
+            </div>
+        </ol>
+    </div>
     <form action="">
         Browser:
         <input type="text" name="date" value="" size="30" maxlength="4" list="date">
         <datalist id="browser">
             <option value="1"></option>
-            
+
             <option value="..."></option>
         </datalist>
     </form> <br>
@@ -137,12 +144,12 @@
     </form><br>
     <form action="">
         Encryption:
-        
-            <select>
-                <option value="1">2048 (Hign Grade)</option>
-                
-                <option value="2">....</option>
-            </select>
+
+        <select>
+            <option value="1">2048 (Hign Grade)</option>
+
+            <option value="2">....</option>
+        </select>
     </form> <br>
     0
     <input type="range" min="0" max="100">
@@ -153,51 +160,51 @@
 
     <form action="">
         <label for="color">Select your favorite color: </label>
-        <input type="color"text
-    </form><br>
+        <input type="color" value="#ff0000">
+        <br><br>
+        <form action="">
+            <label for="birth">Birthday (month and year): </label>
+            <input type="text" placeholder="-------------   ---">
+        </form><br>
 
-    <form action="">
-        <label for="birth">Birthday (month and year): </label>
-        <input type="text">
-    </form><br>
+        <form action="">
+            <label for="week">Select a week: </label>
+            <input type="text" placeholder="Week, - -, - - -">
+        </form><br>
 
-    <form action="">
-        <label for="week">Select a week: </label>
-        <input type="text" value="Week, - -, - - -">
-    </form><br>
+        <form action="">
+            <label for="time">Select a time: </label>
+            <input type="time">
+        </form><br>
 
-    <form action="">
-        <label for="time">Select a time: </label>
-        <input type="time">
-    </form><br>
+        <form action="">
+            <label for="date and time">Birthday (date and time:) </label>
+            <input type="text">
+        </form><br>
 
-    <form action="">
-        <label for="date and time">Birthday (date and time:) </label>
-        <input type="text">
-    </form><br>
+        <form action="">
+            <label for="email">E-mail: </label>
+            <input type="email">
+        </form><br>
 
-    <form action="">
-        <label for="email">E-mail: </label>
-        <input type="email">
-    </form><br>
+        <form action="">
+            <label for="text">Search Google: </label>
+            <input type="text">
+        </form><br>
 
-    <form action="">
-        <label for="text">Search Google: </label>
-        <input type="text">
-    </form><br>
+        <form action="">
+            <label for="Number">Telephone: </label>
+            <input type="number">
+        </form><br>
 
-    <form action="">
-        <label for="Number">Telephone: </label>
-        <input type="number">
-    </form><br>
+        <form action="">
+            <label for="Number">Add your homepage: </label>
+            <input type="number">
+        </form><br>
 
-    <form action="">
-        <label for="Number">Add your homepage: </label>
-        <input type="number">
-    </form><br>
+        <input type="submit" value="Submit">
 
-    <input type="submit" value="Submit">
-
-    <p><b>Note:</b>The datalist tag is not supported in Safari or IE0 (and earlier).</p>
+        <p><b>Note:</b>The datalist tag is not supported in Safari or IE0 (and earlier).</p>
 </body>
+
 </html>
