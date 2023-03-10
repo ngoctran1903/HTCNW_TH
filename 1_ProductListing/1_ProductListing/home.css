@@ -41,7 +41,7 @@ left: 20px
 #container{
 display: flex;
 justify-content: space-around;
-color: #459d7a;
+color: #6aac92;
 }
 #left1{
 display: flex;
@@ -65,4 +65,17 @@ align-items: center;
     display: flex;
 justify-content: space-around;
 align-items: center;
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 150px;
+}
+
+#button1{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 180px;
 }
